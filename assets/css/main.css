@@ -1,0 +1,450 @@
+@font-face {
+  font-family: "Nexa";
+  src: url(../fonts/NexaLight.otf);
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Nexa";
+  src: url(../fonts/NexaRegular.otf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Nexa";
+  src: url(../fonts/NexaBold.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Nexa";
+  src: url(../fonts/NexaXBold.otf);
+  font-weight: bolder;
+}
+
+body {
+  font-family: "Nexa";
+  background-color: #ffffff;
+  color: #636363;
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  font-family: "Nexa" !important;
+}
+
+main {
+  font-family: "Nexa";
+}
+
+a {
+  color: #2b75aa;
+  transition: all ease-in-out 200ms;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: #175786;
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-content-evenly {
+  justify-content: space-evenly;
+}
+
+.font-weight-bold {
+  font-family: "Nexa";
+  font-weight: bold;
+}
+.font-color-blue {
+  color: #2b75aa;
+}
+
+.font-color-dark {
+  color: #000000;
+}
+
+.font-color-red {
+  color: #dd3737;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.logo-section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.show-lg {
+  display: none;
+}
+
+.form-section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.form-section .twelve {
+  display: flex;
+  justify-content: center;
+}
+
+.form-section .form-wrapper {
+  width: 48%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 100px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.form-section .form-wrapper .title {
+  background: #cbe6fa;
+  border-radius: 10px;
+  padding: 8px 18px 4px 16px;
+  margin-right: 10px;
+}
+
+.form-section .form-wrapper .title span {
+  font-size: 1.6rem;
+}
+.form-section .form-wrapper .description {
+  font-weight: 200;
+  font-size: 1.6rem;
+}
+
+.under-construction-section .twelve {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.box-section {
+  background: #eef7fe;
+  border-radius: 20px;
+  padding: 5rem 5rem 0rem 5rem;
+}
+
+.box-section .columns:first-child {
+  padding-top: 10rem;
+  align-self: center;
+}
+.box-section .columns:first-child div h1 {
+  font-size: 6rem;
+}
+
+.box-section .columns:first-child div p {
+  color: #636363;
+  position: relative;
+  top: 3rem;
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+.box-section .columns:last-child .flex:last-child {
+  position: relative;
+  top: -4rem;
+}
+
+.news-section {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+
+.news-section .form-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #fff7f7;
+  border-radius: 20px;
+}
+
+.news-section .form-wrapper .title {
+  width: 20%;
+  padding: 1.5rem 2.5rem;
+  background: #fce3e3;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 2rem;
+}
+.news-section .form-wrapper .description {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 4rem;
+  padding-right: 3rem;
+}
+
+.news-section .form-wrapper .description div:first-child {
+  letter-spacing: 0.2rem;
+}
+
+.news-section .form-wrapper .description div:last-child {
+  color: #2b75aa;
+  font-weight: 200;
+}
+
+.grid3 {
+  position: relative;
+  top: 2rem;
+}
+
+.grid4 {
+  position: relative;
+  top: -5rem;
+}
+
+.grid5 {
+  position: relative;
+  top: -5rem;
+  left: 5rem;
+}
+
+.grid6 {
+  position: relative;
+  top: 8rem;
+}
+
+.grid8 {
+  position: relative;
+  top: -8rem;
+}
+footer .row {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  font-weight: 200;
+}
+
+@media (max-width: 480px) {
+  .news-section .form-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    background: #ffffff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+  }
+
+  .news-section .form-wrapper .title {
+    position: relative;
+    width: 30%;
+    top: -2.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 1rem !important;
+  }
+
+  .news-section .form-wrapper .description {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    width: 90%;
+    position: relative;
+    top: -1rem;
+    font-size: 1rem;
+  }
+
+  .news-section .form-wrapper .description div:first-child {
+    letter-spacing: 0.1rem;
+  }
+
+  .form-section .form-wrapper {
+    width: 100%;
+  }
+
+  .form-section .form-wrapper .title span {
+    font-size: 1rem !important;
+  }
+
+  .form-section .form-wrapper .description {
+    font-size: 1.3rem !important;
+  }
+  .box-section {
+    text-align: center;
+  }
+  .under-construction-section .twelve {
+    font-size: 1.4rem !important;
+  }
+  .box-section .columns:first-child div h1 {
+    font-size: 4rem;
+  }
+  .box-section .columns:first-child div p {
+    font-size: 1.8rem !important;
+  }
+
+  .box-section img {
+    width: 80%;
+  }
+
+  footer .row p {
+    font-size: 1.2rem;
+  }
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .form-section .form-wrapper {
+    width: 100%;
+    text-align: center;
+    padding: 0rem 1rem;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767.98px) {
+  .news-section .form-wrapper {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    background: #ffffff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+  }
+
+  .news-section .form-wrapper .title {
+    position: relative;
+    width: 30%;
+    top: -2.5rem;
+    font-size: 1.8rem;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+
+  .news-section .form-wrapper .description {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    width: 90%;
+    position: relative;
+    top: -1rem;
+  }
+
+  .form-section .form-wrapper {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 15px;
+  }
+
+  .form-section .form-wrapper .title {
+    position: relative;
+    top: -2rem;
+  }
+
+  .form-section .form-wrapper .description {
+    font-size: 2rem;
+    position: relative;
+    top: -0.5rem;
+  }
+
+  .under-construction-section .twelve {
+    font-size: 2.4rem;
+  }
+
+  .box-section {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem 0rem 2rem;
+    overflow: hidden;
+  }
+  .box-section .columns {
+    width: 100%;
+  }
+  .box-section .columns:first-child {
+    padding: 5rem 0rem;
+    align-self: center;
+    text-align: center;
+  }
+
+  .box-section .columns:first-child div p {
+    font-size: 3rem;
+  }
+
+  .box-section .columns:last-child {
+    margin-top: 2rem;
+    justify-self: center;
+    align-self: center;
+  }
+
+  .under-construction-section {
+    margin-bottom: 2rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .form-section .form-wrapper {
+    width: 75%;
+  }
+  .show-lg {
+    display: inline-block;
+  }
+  .news-section .form-wrapper .title {
+    width: 30%;
+    font-size: 1.8rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .container {
+    max-width: 1200px;
+  }
+  .form-section .form-wrapper {
+    width: 60%;
+  }
+  .show-lg {
+    display: inline-block;
+  }
+  .news-section .form-wrapper .title {
+    width: 30%;
+    font-size: 1.8rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+  .show-lg {
+    display: inline-block;
+  }
+
+  .form-section .form-wrapper {
+    width: 54%;
+  }
+}
+
+h1 {
+  font-family: "Nexa";
+  font-weight: bold;
+}
