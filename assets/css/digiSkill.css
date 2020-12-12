@@ -52,8 +52,8 @@ main .digi-learn .digi-learn-register .button {
   transition: transform ease-in-out 200ms;
 }
 
-main .digi-header .digi-header-title .six button.digi-button:hover,
-main .digi-learn .digi-learn-register button:hover {
+main .digi-header .digi-header-title .six .button.digi-button:hover,
+main .digi-learn .digi-learn-register .button:hover {
   transform: translateY(-5px);
 }
 
@@ -178,7 +178,7 @@ main .digi-trainer .digi-trainer-list {
 
 main .digi-trainer .digi-trainer-list .digi-trainer-list-image {
   width: 100%;
-  height: 30rem;
+  height: 40rem;
 }
 
 main .digi-trainer .digi-trainer-list .digi-trainer-list-image.rex {
@@ -250,7 +250,7 @@ main .digi-trainer .digi-trainer-list .digi-trainer-list-body p {
 
 @media (max-width: 480px) {
   main .digi-trainer .digi-trainer-list .digi-trainer-list-image {
-    height: 30rem !important;
+    height: 40rem !important;
     width: 100% !important;
   }
   .digi-footer .row:nth-child(2) .five {
@@ -305,7 +305,7 @@ main .digi-trainer .digi-trainer-list .digi-trainer-list-body p {
     margin-bottom: 5rem;
   }
   main .digi-trainer .digi-trainer-list .digi-trainer-list-image {
-    height: 25rem;
+    height: 35rem;
     width: 50%;
   }
 }
