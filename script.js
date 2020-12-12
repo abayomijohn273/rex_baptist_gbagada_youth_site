@@ -24,5 +24,3 @@
     ease: "elastic", 
     force3D: true
   });
-
-  

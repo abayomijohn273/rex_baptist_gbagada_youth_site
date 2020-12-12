@@ -1,0 +1,390 @@
+main {
+  position: relative;
+}
+main .digi-header {
+  position: relative;
+  background: #031b40;
+  height: 115vh;
+  background-image: url("../images/ux.svg");
+  background-repeat: no-repeat;
+  background-position: right 10rem;
+  background-size: 50rem;
+}
+
+main .digi-header .digi-header-title {
+  padding-top: 4.5rem;
+  height: 70vh;
+  position: relative;
+}
+main .digi-header .digi-header-title .six p:first-child {
+  font-size: 3.5rem;
+}
+main .digi-header .digi-header-title .six h2 {
+  font-size: 5.4rem;
+  font-weight: bolder;
+  color: #cbe6fa;
+}
+
+main .digi-header .digi-header-title .six p:nth-child(3) {
+  font-size: 1.8rem;
+  color: #ffd0d0;
+  font-weight: 300;
+}
+
+main .digi-header .digi-header-title .six p:nth-child(4) {
+  color: #ffffff;
+  font-size: 1.6rem;
+}
+
+main .digi-header .digi-header-title .six .button.digi-button,
+main .digi-learn .digi-learn-register .button {
+  margin-top: 2rem;
+  color: #1a5987;
+  background-color: #cbe6fa;
+  border-radius: 0;
+  text-transform: none;
+  font-size: 1.6rem;
+  border: none;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  height: 100%;
+  transition: transform ease-in-out 200ms;
+}
+
+main .digi-header .digi-header-title .six button.digi-button:hover,
+main .digi-learn .digi-learn-register button:hover {
+  transform: translateY(-5px);
+}
+
+main .digi-header .digi-header-title .six p img {
+  position: relative;
+  top: 8rem;
+  width: 1rem;
+  animation-name: moveupdown;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 500ms;
+  animation-play-state: running;
+}
+
+@keyframes moveupdown {
+  from {
+    transform: translateY(-5px);
+  }
+
+  50% {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-5px);
+  }
+}
+
+main .digi-image .image-section {
+  position: relative;
+  top: -10rem;
+  text-align: right;
+}
+
+main .digi-image .image-section img {
+  width: 80rem;
+}
+
+main .digi-learn h2,
+main .digi-trainer h2,
+.digi-footer h2 {
+  font-size: 5.2rem;
+  font-weight: bolder;
+  color: #031b40;
+}
+
+main .digi-learn .digi-learn-courses {
+  display: flex;
+  justify-content: space-around;
+}
+main .digi-learn .digi-learn-courses {
+  padding-top: 7rem;
+  padding-bottom: 9rem;
+}
+
+main .digi-learn .digi-learn-courses .row h4 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #031b40;
+}
+
+main .digi-learn .digi-learn-courses .row ul li {
+  list-style-type: decimal;
+  font-weight: 300;
+  color: #031b40;
+  font-size: 1.6rem;
+}
+
+main .digi-learn .digi-learn-where {
+  margin-top: 5rem;
+  background-color: #eef7fe;
+  padding: 4.5rem 3.5rem;
+}
+
+main .digi-learn .digi-learn-where .twelve p:first-child {
+  font-weight: 300;
+  letter-spacing: 0.5rem;
+  font-size: 1.6rem;
+}
+main .digi-learn .digi-learn-where .twelve h4 {
+  padding-top: 1rem;
+  font-weight: bolder;
+  color: #031b40;
+  line-height: 1.4rem;
+}
+
+main .digi-learn .digi-learn-where .twelve p:nth-child(3) {
+  font-weight: bolder;
+  color: #031b40;
+  font-size: 1.6rem;
+}
+
+main .digi-learn .digi-learn-where .twelve p:last-child {
+  font-weight: 300;
+  color: #031b40;
+  font-size: 1.6rem;
+}
+
+main .digi-learn .digi-learn-register {
+  margin-top: 2rem;
+  text-align: right;
+}
+
+main .digi-learn .digi-learn-register .button {
+  color: #ffffff;
+  background-color: #031b40;
+  font-weight: 300;
+}
+
+main .digi-trainer {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  background: #f2f4f4;
+}
+
+main .digi-trainer .digi-trainer-list {
+  margin: auto;
+  margin-top: 7rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+main .digi-trainer .digi-trainer-list .digi-trainer-list-image {
+  width: 100%;
+  height: 30rem;
+}
+
+main .digi-trainer .digi-trainer-list .digi-trainer-list-image.rex {
+  background: url("../images/rex.png") #629cc7;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+main .digi-trainer .digi-trainer-list .digi-trainer-list-image.adeoye {
+  background: #629cc7;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+main .digi-trainer .digi-trainer-list .digi-trainer-list-title {
+  margin-top: 3.5rem;
+}
+main .digi-trainer .digi-trainer-list .digi-trainer-list-title h3 {
+  font-size: 2.8rem;
+  color: #031b40;
+  font-weight: bolder;
+  line-height: 1rem;
+}
+main .digi-trainer .digi-trainer-list .digi-trainer-list-title p,
+main .digi-trainer .digi-trainer-list .digi-trainer-list-body p {
+  font-weight: 300;
+  color: #031b40;
+  font-size: 1.6rem;
+}
+
+main .digi-trainer .digi-trainer-list .digi-trainer-list-body p {
+  line-height: 1.8;
+}
+
+.digi-footer {
+  padding-top: 4rem;
+}
+
+.digi-footer .row:first-child {
+  padding-bottom: 0;
+}
+
+.digi-footer .row:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+}
+
+.digi-footer .row:nth-child(2) p,
+.digi-footer .row:nth-child(2) ul li {
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: #031b40;
+}
+.digi-footer .row:nth-child(2) ul li {
+  list-style-type: decimal;
+}
+
+.digi-footer .row:nth-child(3) {
+  color: #629cc7;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.digi-footer .row:last-child {
+  font-size: 1.8rem;
+}
+
+@media (max-width: 480px) {
+  main .digi-trainer .digi-trainer-list .digi-trainer-list-image {
+    height: 30rem !important;
+    width: 100% !important;
+  }
+  .digi-footer .row:nth-child(2) .five {
+    display: none;
+  }
+  .digi-footer .row:nth-child(2) .seven {
+    width: 100%;
+  }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  main .digi-image .image-section {
+    position: relative;
+    top: 0;
+    width: 35rem;
+    margin: auto;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  main .digi-learn .digi-learn-courses {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    padding-top: 2rem;
+  }
+  main .digi-learn .digi-learn-courses .six {
+    width: 100%;
+  }
+
+  main .digi-learn .digi-learn-where .twelve h4 {
+    line-height: 4rem;
+  }
+
+  main .digi-learn .digi-learn-register {
+    text-align: center;
+  }
+}
+
+@media (max-width: 700px) {
+  main .digi-trainer .digi-trainer-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+  }
+
+  main .digi-trainer .digi-trainer-list .five {
+    width: 100%;
+    margin-bottom: 5rem;
+  }
+  main .digi-trainer .digi-trainer-list .digi-trainer-list-image {
+    height: 25rem;
+    width: 50%;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767.98px) {
+  main .digi-header {
+    background-image: none;
+  }
+  main .digi-header .digi-header-title .six {
+    width: 100%;
+  }
+  main .digi-learn .digi-learn-courses .four {
+    display: none;
+  }
+  main .digi-learn .digi-learn-courses .eight {
+    width: 100%;
+  }
+
+  main .digi-image .image-section img {
+    width: 35rem;
+  }
+
+  .digi-footer .row:nth-child(2) .five {
+    width: 20%;
+  }
+
+  .digi-footer .row:nth-child(2) .seven {
+    width: 80%;
+  }
+  .digi-footer .row:nth-child(3) p {
+    font-size: 1.6rem;
+  }
+
+  .digi-footer .row:last-child p {
+    font-size: 1.6rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  main .digi-header {
+    background-size: 28rem;
+  }
+  main .digi-header .digi-header-title .six {
+    width: 65%;
+  }
+  main .digi-image .image-section img {
+    width: 49rem;
+  }
+  main .digi-learn .digi-learn-courses .four {
+    width: 5%;
+  }
+  main .digi-learn .digi-learn-courses .eight {
+    width: 95%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  main .digi-header {
+    background-size: 35rem;
+  }
+  main .digi-header .digi-header-title .six {
+    width: 60%;
+  }
+
+  main .digi-image .image-section img {
+    width: 50rem;
+  }
+
+  main .digi-learn .digi-learn-courses .four {
+    width: 15%;
+  }
+  main .digi-learn .digi-learn-courses .eight {
+    width: 75%;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
